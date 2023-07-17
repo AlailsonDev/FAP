@@ -1,0 +1,12 @@
+
+
+
+( V )Jogador 1: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Sim)   // V, pois todas as expressões são verdadeiras nesta conjunção.
+
+( F )Jogador 2: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Não)   // F, pois basta uma das expressões estar errada para negar uma conjunção.
+
+( V ) Jogador 3: (pontos < 100) or (moedas < 5) or (enfrentou_chefe == Sim)   // V. Nesta disjunção, bastou a última expressão ser verdadeira para validá-la.
+
+( V ) Jogador 4: (pontos != 100) or (moedas != 5) or not(enfrentou_chefe == Não)   // V. As duas primeiras espressões são verdadeiras, pois a condição para 
+ambas serem validadas era se houvese diferença entre elas e os dados da tabela. Já a terceira expressão, nega a si mesma, o que a torna diferente
+do que é mostrado na tabela. Mesmo assim, como tudo fez parte de uma disjunção, bastou que uma das expressões fosse verdadeira para torná-la válida.
