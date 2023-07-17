@@ -1,0 +1,33 @@
+Proposta de variáveis:
+
+Temos uma inscrição onde ultilizaremos variáveis
+dos tipos:
+
+	caracteres
+	inteiras
+	reais
+
+Declaração das váriáveis:
+
+	nomeCompleto
+	cpf
+	identidade
+	altura
+	endereço
+
+Comando de atribuição:
+
+	
+	variavel nomeCompleto => "José Almeida da Silva"   //caracter
+	variavel cpf => 12345678900   //inteiro
+	variavel identidade => 9517530   //inteiro
+	variavel altura => 1,78   //real
+	variavel endereço => "Rua A, 380 - Centro - Recife/PE"   //caracter
+	
+
+	const nomeCompleto = "José Almeida da Silva"
+	const cpf = 12345678900
+	const identidade = 9517530
+	const altura = 1,78
+	const endereço = "Rua A, 380 - Centro - Recife/PE"
+
