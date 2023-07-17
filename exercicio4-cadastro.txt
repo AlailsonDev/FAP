@@ -1,0 +1,42 @@
+Variáveis:
+
+	nome, endereco, cidade, cpf, identidade, idade, nomePai,
+	nomeMae, peso, rendaBruta
+
+inicio
+
+	escreva("Digite seu nome completo")
+	leia(nome)
+	escreva("Digite seu endereço")
+	leia(endereco)
+	escreva("Em que cidade você mora?")
+	leia(cidade)
+	escreva("Informe seu CPF")
+	leia(cpf)
+	escreva("Informe seu RG")
+	leia(identidade)
+	escreva("Qual a sua idade?")
+	leia (idade)
+	escreva("Qual o nome do seu pai?")
+	leia(nomePai)
+	escreva("Qual o nome da sua mãe?")
+	leia(nomeMae)
+	escreva("Qual o seu peso?")
+	leia(peso)
+	escreva("Qual sua renda bruta?")
+	leia(rendaBruta)
+
+	escreva("Nome: " + nome +
+		"endereço: " + endereco +
+		"Cidade: " + cidade +
+		"CPF: " + cpf +
+		"RG: " + identidade +
+		"Idade: " + idade +
+		"Nome do pai: " + nomePai +
+		"Nome da mãe: " + nomeMae +
+		"Seu peso: " + peso +
+		"Sua renda bruta: " + rendaBruta)
+
+	escreva("Cadastro relizado com sucesso!!!")
+
+fimAlgoritmo
