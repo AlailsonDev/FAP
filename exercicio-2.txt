@@ -1,0 +1,6 @@
+Como podemos observar no anexo 2, existe um padrão onde cada fileira 
+(tanto horizontal quanto vertical) recebe 4 alunos de uma matéria e 2 alunos 
+da outra matéria. Quando os alunos trocaram de lugar (anexo 3), houve uma quebra 
+de padrão, onde o professor percebeu que o aluno de Matemática (M) na posição da 
+terceira coluna e quarta linha e o aluno de Português (P) na posição da quinta 
+coluna e quinta linha, foram os responsáveis por desfazer a organização.
