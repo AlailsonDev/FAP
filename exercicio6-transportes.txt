@@ -1,0 +1,39 @@
+VAR
+
+nome, terrestre, umaPessoa: caracter
+opcao: inteiro
+
+
+INICIO
+
+	escreva("Olá! Qual o seu nome?")
+	leia(nome)
+	
+	escreva(nome, "o meio de transporte considerado por você é terrestre?")
+
+	SE (terrestre == "n") ENTAO
+	escreva("Infelizmente não pussuímos outras opções que não sejam terrestres... :(")
+	SENAO
+	escreva("Cabe apenas uma pessoa?")
+	leia(umaPessoa)
+	SE (umaPessoa == "n") ENTAO
+	escreva("Você escolheu a moto!")
+	SENAO
+	escreva("Digite '1' caso seu veículo seja pesado, ou '2' caso ele tenha um pedal!")
+	leia(opcao)
+
+	ESCOLHA opcao
+		caso 1
+		escreva("Você escolheu o trator!")
+		caso 2
+		escreva("Vôce escolheu a bicicleta!")
+	FIMESCOLHA
+	FIMSE
+	FIMSE
+
+FIM
+	
+	
+	
+	
+	
